@@ -5494,7 +5494,7 @@ body::before, body::after,
 }
 
 .bar-hit-timer-progress.danger { background: var(--failure-color); }
-}
+
 
 /* bar-hit track flash handled by flash-success/fail rules above */
 
@@ -5605,4 +5605,11 @@ body::before, body::after,
 
 #hold-zone-container.hz-flash-fail .hz-ring-wrapper {
     filter: drop-shadow(0 0 14px rgba(255,68,68,0.55));
+}
+
+#circle-click-container, 
+#lockpick-container, 
+#bar-hit-container, 
+#combo-input-container {
+    display: none;
 }
